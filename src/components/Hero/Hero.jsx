@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { FaWhatsapp, FaPrint, FaStar } from 'react-icons/fa'
 import { FiPhone, FiArrowRight } from 'react-icons/fi'
 import { MdVerified } from 'react-icons/md'
-
+import banner from "../Images/flexPrintingMachine.jpg";
 const fadeUp = {
   initial: { opacity: 0, y: 40 },
   animate: { opacity: 1, y: 0 },
@@ -134,7 +134,7 @@ export default function Hero() {
             {/* Main image */}
             <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-emerald-500/10">
               <img
-                src="https://images.unsplash.com/photo-1588681664899-f142ff2dc9b1?w=700&q=80"
+                src={banner}
                 alt="Flex Printing Business"
                 className="w-full h-[500px] object-cover"
               />
@@ -193,7 +193,7 @@ export default function Hero() {
           className="lg:hidden rounded-2xl overflow-hidden shadow-xl"
         >
           <img
-            src="https://images.unsplash.com/photo-1588681664899-f142ff2dc9b1?w=700&q=80"
+            src={banner}
             alt="Flex Printing"
             className="w-full h-56 object-cover"
           />

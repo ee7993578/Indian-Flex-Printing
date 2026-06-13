@@ -1,12 +1,12 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { FiArrowRight } from 'react-icons/fi'
-
+import flexprint from "../Images/flexprint.jpeg";
 const services = [
   {
     title: 'Flex Printing',
     desc: 'Large-format vibrant flex banners with UV-resistant inks for indoor & outdoor use.',
-    img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=75',
+    img: flexprint,
     color: 'from-emerald-500 to-teal-600',
   },
   {
